@@ -1,0 +1,29 @@
+{
+	"name": "builder-pattern-typescript",
+	"version": "1.0.0",
+	"description": "json Parser",
+	"main": "lib/Test.js",
+	"scripts": {
+		"build": "tsc",
+		"lint": "tslint -p tsconfig.json",
+		"start": "node ./lib/Test1.js"
+	},
+	"keywords": [
+		"bulder",
+		"pattern"
+	],
+	"author": "DD",
+	"devDependencies": {
+		"prettier": "^1.13.2",
+		"tslint": "^5.10.0",
+		"tslint-config-prettier": "^1.13.0",
+		"typescript": "^3.8.3"
+	},
+	"files": [
+		"lib/**/*"
+	],
+	"dependencies": {
+		"dtslint": "^3.3.0",
+		"@types/node": "^13.9.0"
+	}
+}
